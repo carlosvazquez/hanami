@@ -18,7 +18,9 @@ Hanami.configure do
     #    adapter :sql, 'postgresql://localhost/bookshelf_development'
     #    adapter :sql, 'mysql://localhost/bookshelf_development'
     #
-    adapter :sql, ENV['DATABASE_URL']
+    # adapter :sql, ENV['DATABASE_URL']
+    adapter :sql, 'sqlite://db/bookshelf_development.sqlite3'
+
 
     ##
     # Migrations
