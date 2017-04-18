@@ -1,0 +1,2 @@
+# hanami
+Hanami Example Project
